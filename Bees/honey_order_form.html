@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <title>Honey order form</title>
+</head>
+<body>
+  <div class="container">
+     <h1>Would you like to buy some honey from my underlings?!</h1>
+
+     <form action="honey_receipt.php">
+       <div class="form-group">
+         <label for="customer">Your Name</lable>
+         <input id="customer" name="customer" class="form-control" type="text">
+       </div>
+       <div class="form-group">
+         <label for="address">Address</label>
+         <input id="address" name="address" class="form-control" type="text">
+       </div>
+       <div class"form-group">
+         <label for="phone">Phone</label>
+         <input id="phone" name="phone" class="form-control" type="tel"
+       </div>
+       <div>
+         <label for="amount">How many jars would you like?</label>
+         <select class="form-control" name="amount" id="amount">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>a literal fuck ton</option>
+
+          </select>
+
+       </div>
+
+       <button type="submit" class="btn">Go!</button>
+     </form>
+  </div>
+</body>
+</html>
